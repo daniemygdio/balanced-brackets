@@ -5,15 +5,15 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import balancedbrackets.BalancedBrackets2;
+import balancedbrackets.BalancedBrackets;
 
 public class BalancedBracketsTest {
 
-	private BalancedBrackets2 balancedBrackets;
+	private BalancedBrackets balancedBrackets;
 	
 	@Before
 	public void setup() {
-		balancedBrackets = new BalancedBrackets2();
+		balancedBrackets = new BalancedBrackets();
 	}
 	
 	@Test
